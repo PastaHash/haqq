@@ -14,8 +14,8 @@ You specify the network you want to join by setting the **genesis file** and **s
 
 | Testnet Chain ID | Name | Version | Status | Description
 |--|--|--|--|--| 
-| haqq_112357-1 | Haqq TestNow | v1.0.0 | WIP | This test network is functionally equivalent to the current Haqq Mainnet and it built for developers and exchanges who are integrating with Haqq. |
-| haqq_53211-1 | Haqq TestEdge | v1.0.0 | Live | This test network contains features which we plan to release on Haqq Mainnet. |
+| haqq_112357-1 | Haqq TestNow | [v1.0.0](https://github.com/haqq-network/haqq/releases/tag/v1.0.0) | WIP | This test network is functionally equivalent to the current Haqq Mainnet and it built for developers and exchanges who are integrating with Haqq. |
+| haqq_53211-1 | Haqq TestEdge | [v1.0.0](https://github.com/haqq-network/haqq/releases/tag/v1.0.0) | Live | This test network contains features which we plan to release on Haqq Mainnet. |
 
 
 ## Install `haqqd`
