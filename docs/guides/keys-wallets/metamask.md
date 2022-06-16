@@ -27,6 +27,7 @@ You can also lookup the [EIP155](https://github.com/ethereum/EIPs/blob/master/EI
 Here is the list of fields that you can use to paste on Metamask:
 
 :::: tabs
+
 ::: tab Mainnet
 
 - **Network Name:** `Haqq Network`
@@ -35,14 +36,17 @@ Here is the list of fields that you can use to paste on Metamask:
 - **Currency Symbol (optional):** `{{ $themeConfig.project.testnet_ticker }}`
 - **Block Explorer URL (optional):** `{{ $themeConfig.project.block_explorer_url }}`
 :::
-<!-- ::: tab Testnet
+
+::: tab Testnet (TestEdge)
 
 - **Network Name:** `{{ $themeConfig.project.name }}`
-- **New RPC URL:** `{{ $themeConfig.project.rpc_url_testnet }}`
-- **Chain ID:** `{{ $themeConfig.project.testnet_chain_id }}`
+- **New RPC URL:** `https://rpc.eth.testedge.haqq.network
+`
+- **Chain ID:** `haqq_53211-1`
 - **Currency Symbol (optional):** `{{ $themeConfig.project.testnet_ticker }}`
 - **Block Explorer URL (optional):** `{{ $themeConfig.project.block_explorer_url }}`
-::: -->
+:::
+
 ::: tab Local Node
 
 - **Network Name:** `{{ $themeConfig.project.name }}`
@@ -50,7 +54,9 @@ Here is the list of fields that you can use to paste on Metamask:
 - **Chain ID:** `{{ $themeConfig.project.testnet_chain_id }}`
 - **Currency Symbol (optional):** `{{ $themeConfig.project.testnet_ticker }}`
 - **Block Explorer URL (optional):** `n/a`
+
 :::
+
 ::::
 
 ## Import Account to Metamask
